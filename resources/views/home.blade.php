@@ -2,9 +2,9 @@
 
 {{-- Customize layout sections --}}
 
-@section('subtitle', 'Welcome')
+@section('subtitle', 'Inicio')
 @section('content_header_title', 'Home')
-@section('content_header_subtitle', 'Welcome')
+@section('content_header_subtitle', 'Inicio')
 
 {{-- Content body: main page content --}}
 
@@ -40,5 +40,5 @@
 {{-- Push extra scripts --}}
 
 @push('js')
-    <script> console.log("Hi, I'm using the Laravel-AdminLTE package!"); </script>
+    {{-- <script> console.log("Hi, I'm using the Laravel-AdminLTE package!"); </script> --}}
 @endpush
